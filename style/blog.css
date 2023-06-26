@@ -1,0 +1,73 @@
+body {
+  color: #FEFEFE;
+  background-color: #0A0B11;
+  margin: 0 auto;
+  padding: 1em 0 1em 0;
+}
+a { 
+  color: #93ffd7; 
+  text-decoration: none; 
+}
+/* @font-face { 
+  font-family: "unifont"; 
+  src: url("../fonts/unifont.woff") format('woff'); 
+} */
+pre { 
+  font-family: "unifont", "Lucida Console", monospace, Monaco; 
+  font-size:16px; 
+  line-height: 1.0;
+  padding-left: 20px;
+}
+.txtdiv {
+  display: block;
+  text-align: left;
+}
+x { color: #93f1ff; } /* blue - complimentary to <a> tag for highlighting */
+hl { color: white; background-color: #4f4b54;  } /* for block quotes */
+
+l0 { animation:bl0  3.0s; }
+l1 { animation:bl1  3.0s; }
+l2 { animation:bl2  3.0s; }
+l3 { animation:bl3  3.0s; }
+l4 { animation:bl4  3.0s; }
+l5 { animation:bl5  3.0s; }
+l6 { animation:bl6  3.0s; }
+l7 { animation:bl7  3.0s; }
+l8 { animation:bl8  3.0s; }
+l9 { animation:bl9  3.0s; }
+la { animation:bla  3.0s; }
+lb { animation:blb  3.0s; }
+lc { animation:blc  3.0s; }
+ld { animation:bld  3.0s; }
+le { animation:ble  3.0s; }
+lf { animation:blf  3.0s; }
+lg { animation:blg  3.0s; }
+lh { animation:blh  3.0s; }
+lj { animation:blj  3.0s; }
+b0 { animation:bb0  3.0s; }
+b1 { animation:bb1  3.0s; }
+b2 { animation:bb2  3.0s; }
+b3 { animation:bb3  3.0s; }
+@keyframes bb0 { 0% {color:#000000;} 10% {color:#FEFEFE;}}
+@keyframes bb1 { 0% {color:#000000;} 10% {color:#000000;} 20% {color:#FEFEFE;}}
+@keyframes bb2 { 0% {color:#000000;} 20% {color:#000000;} 30% {color:#FEFEFE;}}
+@keyframes bb3 { 0% {color:#000000;} 30% {color:#000000;} 40% {color:#FEFEFE;}}
+@keyframes bl0 { 0% {color:#000000;} 50% {color:#000000;} 55% {color:#FEFEFE;}}
+@keyframes bl1 { 0% {color:#000000;} 55% {color:#000000;} 60% {color:#FEFEFE;}}
+@keyframes bl2 { 0% {color:#000000;} 60% {color:#000000;} 65% {color:#FEFEFE;}}
+@keyframes bl3 { 0% {color:#000000;} 65% {color:#000000;} 70% {color:#FEFEFE;}}
+@keyframes bl4 { 0% {color:#000000;} 70% {color:#000000;} 75% {color:#FEFEFE;}}
+@keyframes bl5 { 0% {color:#000000;} 75% {color:#000000;} 80% {color:#FEFEFE;}}
+@keyframes bl6 { 0% {color:#000000;} 80% {color:#000000;} 85% {color:#FEFEFE;}}
+@keyframes bl7 { 0% {color:#000000;} 85% {color:#000000;} 90% {color:#FEFEFE;}}
+@keyframes bl8 { 0% {color:#000000;} 90% {color:#000000;} 95% {color:#FEFEFE;}}
+@keyframes bl9 { 0% {color:#000000;} 95% {color:#000000;} 100% {color:#FEFEFE;}}
+@keyframes bla { 0% {color:#000000;} 90% {color:#000000;} 95% {color:#FEFEFE;}}
+@keyframes blb { 0% {color:#000000;} 85% {color:#000000;} 90% {color:#FEFEFE;}}
+@keyframes blc { 0% {color:#000000;} 80% {color:#000000;} 85% {color:#FEFEFE;}}
+@keyframes bld { 0% {color:#000000;} 75% {color:#000000;} 80% {color:#FEFEFE;}}
+@keyframes ble { 0% {color:#000000;} 70% {color:#000000;} 75% {color:#FEFEFE;}}
+@keyframes blf { 0% {color:#000000;} 65% {color:#000000;} 70% {color:#FEFEFE;}}
+@keyframes blg { 0% {color:#000000;} 60% {color:#000000;} 65% {color:#FEFEFE;}}
+@keyframes blh { 0% {color:#000000;} 55% {color:#000000;} 60% {color:#FEFEFE;}}
+@keyframes blj { 0% {color:#000000;} 50% {color:#000000;} 55% {color:#FEFEFE;}}
