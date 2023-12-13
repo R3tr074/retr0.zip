@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <title>retr0.zip</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style/main.css">
+  <link rel="stylesheet" href="../../style/post.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  <script>
+    hljs.highlightAll();
+    window.onload = () => {
+      const dateDocument = document.querySelector('blockquote > p');
+      const dateString = new Date(dateDocument.innerText).toLocaleDateString(navigator.language, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+      dateDocument.innerText = dateString;
+    }
+  </script>
+</head>
+
+<body>
+  <div class="center-container">

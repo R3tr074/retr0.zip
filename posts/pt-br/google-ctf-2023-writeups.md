@@ -1,5 +1,7 @@
 # Google CTF writeups
 
+> 06/26/2023
+
 # Write-flag-where{,2,3}
 
 Os três challenges são variações de um mesmo binário, com uma ideia interessante, podemos escrever o conteúdo da flag em qualquer lugar do binário, e a dificuldade de conseguir exibir a flag aumenta gradualmente.
