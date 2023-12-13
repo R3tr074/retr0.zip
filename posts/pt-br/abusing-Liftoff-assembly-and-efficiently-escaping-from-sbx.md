@@ -2,6 +2,8 @@
 
 > 2023-12-12
 
+> Essa foi uma pesquisa publicada durante a H2HC 2023! Muitos agradecimentos a [@bsdaemon](https://twitter.com/bsdaemon), [@filipebalestra](https://twitter.com/filipebalestra), [@gabrielnb](https://twitter.com/gabrielnb) e toda equipe por criar e manter esse evento incrivel!
+
 O Chrome vem criando novas mitigações a fim de inviabilizar, ou pelo menos dificultar, a exploração do v8, pois a complexidade de implementar a especificação mais moderna do ECMAScript e manter uma performance de alto nível são uma tarefa muito complexa e uma enorme superfície de ataque. Tendo isso em mente, o projeto “[V8 Sandbox](https://docs.google.com/document/d/1FM4fQmIhEqPG8uGp5o9A-mnPB5BOeScZYpkHjo0KKA8/edit)” foi desenvolvido.
 
 Essa sandbox é um pouco diferente do convencional. Não existem dois processos distintos ou uma limitante de poderes para o v8, o design da sandbox é baseado no isolamento da Heap e no poder de corrupção. Basicamente, o v8 aloca uma região de memória, a chamada “V8 Sandbox”, e nela coloca todos os JSObjects. Ou seja, todos os objetos em si do JS. O ponto crucial é remover todos os ponteiros raw de 64 bits de dentro da Sandbox e trocar por offsets (de 32 a 40 bits) ou índices de tabelas estrangeiras(de fora da heap). Dessa forma, ao adquirir algum bug, fica-se limitado para corromper dados de dentro da Sandbox e não resultaria em nada mais que um crash.
