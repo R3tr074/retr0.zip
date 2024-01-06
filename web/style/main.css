@@ -20,6 +20,11 @@ footer {
   src: url("../assets/gohu.woff") format('woff');
 }
 
+@font-face {
+  font-family: "ibm";
+  src: url("../assets/ibm_vga_8x14.woff") format('woff');
+}
+
 pre {
   font-family: "gohu", "Lucida Console", monospace, Monaco;
   font-size: 1rem;
@@ -30,6 +35,108 @@ pre {
 }
 pre.art {
   white-space: pre;
+}
+
+.ansi2html-content {
+  font-family: ibm;
+  font-size: 15px;
+  line-height: 1;
+  display: inline;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .ansi2html-content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 528px) {
+  .ansi2html-content {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 409px) {
+  .ansi2html-content {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 378px) {
+  .ansi2html-content {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 347px) {
+  .ansi2html-content {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 315px) {
+  .ansi2html-content {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 284px) {
+  .ansi2html-content {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 252px) {
+  .ansi2html-content {
+    font-size: 7px;
+  }
+}
+
+.ansi1 {
+  font-weight: bold;
+}
+
+.ansi5 {
+  text-decoration: blink;
+}
+
+.ansi34 {
+  color: #0000aa;
+}
+
+.ansi35 {
+  color: #E850A8;
+}
+
+.ansi36 {
+  color: #00aaaa;
+}
+
+.ansi37 {
+  color: #F5F1DE;
+}
+
+.ansi40 {
+  background-color: #000316;
+}
+
+.ansi44 {
+  background-color: #0000aa;
+}
+
+.ansi45 {
+  background-color: #E850A8;
+}
+
+.ansi46 {
+  background-color: #00aaaa;
+}
+
+.ansi47 {
+  background-color: #F5F1DE;
 }
 
 .center-container {
