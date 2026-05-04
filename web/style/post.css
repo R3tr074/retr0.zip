@@ -57,6 +57,18 @@ code:not([class]) {
   padding: 0.2em 0.4em;
 }
 
-img { 
+a {
+  text-decoration: underline;
+  text-decoration-color: rgba(254, 254, 254, 0.4);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: rgba(254, 254, 254, 0.7);
+  text-decoration-thickness: 2px;
+}
+
+img {
   max-width: 100%;
 }

@@ -4,9 +4,21 @@ body {
   margin: 0 auto;
   padding: 1em 0 1em 0;
 }
-a { 
-  color: #93ffd7; 
-  text-decoration: none; 
+a {
+  color: #93ffd7;
+  text-decoration: underline;
+  text-decoration-color: rgba(254, 254, 254, 0.4);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: rgba(254, 254, 254, 0.7);
+  text-decoration-thickness: 2px;
+}
+
+pre a {
+  text-decoration: none;
 }
 @font-face { 
   font-family: "unifont"; 

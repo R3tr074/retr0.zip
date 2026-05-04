@@ -163,6 +163,18 @@ footer {
 
 a {
   color: #93ffd7;
+  text-decoration: underline;
+  text-decoration-color: rgba(254, 254, 254, 0.4);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: rgba(254, 254, 254, 0.7);
+  text-decoration-thickness: 2px;
+}
+
+pre a, .ansi2html-content a {
   text-decoration: none;
 }
 
